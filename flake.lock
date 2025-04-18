@@ -26,15 +26,7 @@
         "type": "github"
       },
       "original": {
-        "id": "nixpkgs",
         "type": "indirect"
-      }
-    },
-    "root": {
-      "inputs": {
-        "nixpkgs": "nixpkgs",
-        "shardus-cli": "shardus-cli",
-        "utils": "utils_2"
       }
     },
     "shardus-cli": {
@@ -47,7 +39,6 @@
         "narHash": "sha256-7FZekqUXvc4ok42/X/dHGuVuuwM9HtfNqvbchr+SZ3o=",
         "ref": "nix-flake",
         "rev": "90a799ac459db797b0b03163e9d7090adf0a9cd9",
-        "revCount": 85,
         "type": "git",
         "url": "https://gitlab.com/shardus/tools/shardus-cli"
       },
@@ -103,6 +94,13 @@
         "owner": "numtide",
         "repo": "flake-utils",
         "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "shardus-cli": "shardus-cli",
+        "utils": "utils_2"
       }
     }
   },
